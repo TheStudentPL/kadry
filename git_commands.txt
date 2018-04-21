@@ -1,0 +1,13 @@
+mkdir project
+cd project
+start .
+git init
+git add .
+git commit -m “zadanie”
+git remote add origin https://github.com/TheStudentPL/kadry.git
+git push -u origin master
+
+——————————————
+git status -s
+git log
+git config - - list
