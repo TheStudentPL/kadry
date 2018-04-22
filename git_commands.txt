@@ -2,12 +2,20 @@ mkdir project
 cd project
 start .
 git init
-git add .
-git commit -m “zadanie”
+git add .  //move file into stating area
+git commit -m “zadanie” //add to local database
 git remote add origin https://github.com/TheStudentPL/kadry.git
-git push -u origin master
+git push -u origin master //add to remote repository
 
 ——————————————
 git status -s
 git log
 git config - - list
+
+————————
+Clone to local hard disk
+git clone https://github.com/TheStudentPL/kadry.git
+
+—————
+Git difftool HEAD
+
