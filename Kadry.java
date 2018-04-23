@@ -7,7 +7,7 @@ public class Kadry extends Pracownik {
 	
 	public Kadry(String i, String n, double p, char s, int d) {	
 		super(i,n,p,s,d);
-		pracownicy_[] = new Pracownik (i,n,p,s,d);
+		pracownicy_[] = new Pracownik[34];
 		}
 	
 	public void dodajPracownika(String i, String n, double p, char s, int d) {
@@ -24,7 +24,7 @@ public class Kadry extends Pracownik {
 		Pracownik pracownik1 = new Pracownik("Jan", "Nowak", 23.00, 'M', 45);
 		pracownik1.czyPracujeWDziale(45);
 		
-
+		
 		
 	}
 	
