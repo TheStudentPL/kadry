@@ -3,7 +3,9 @@ package Kadry;
 public class Kadry extends Pracownik {
 
 	private Pracownik[] pracownicy_; 
-	private int zatrudnienie = 2;
+
+	private int zatrudnienie = 1;
+
 	
 	public Kadry(String i, String n, double p, char s, int d) {	
 		super(i,n,p,s,d);
