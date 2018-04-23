@@ -3,11 +3,13 @@ package Kadry;
 public class Kadry extends Pracownik {
 
 	private Pracownik[] pracownicy_; 
+
 	private int zatrudnienie = 1;
+
 	
 	public Kadry(String i, String n, double p, char s, int d) {	
 		super(i,n,p,s,d);
-		pracownicy_[] = new Pracownik (i,n,p,s,d);
+		pracownicy_[] = new Pracownik[34];
 		}
 	
 	public void dodajPracownika(String i, String n, double p, char s, int d) {
@@ -24,7 +26,7 @@ public class Kadry extends Pracownik {
 		Pracownik pracownik1 = new Pracownik("Jan", "Nowak", 23.00, 'M', 45);
 		pracownik1.czyPracujeWDziale(45);
 		
-
+		
 		
 	}
 	
