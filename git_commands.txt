@@ -1,3 +1,4 @@
+1. Create
 mkdir project
 cd project
 start .
@@ -6,7 +7,7 @@ git add .  //move file into stating area
 git commit -m “zadanie” //add to local database
 git remote add origin https://github.com/TheStudentPL/kadry.git
 git push -u origin master //add to remote repository
-
+Git checkout -b NOWE_ZMIANY //change and create local branch
 ——————————————
 git status -s
 git log
