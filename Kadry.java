@@ -1,6 +1,6 @@
 package Kadry;
 import java.io.File;
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Kadry {
