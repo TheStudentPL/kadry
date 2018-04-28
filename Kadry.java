@@ -1,4 +1,7 @@
 package Kadry;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 public class Kadry {
 
@@ -23,7 +26,9 @@ public class Kadry {
 		
 	}
 	public void importujZplikuTekstowego() {
-		
+		File plik = new File("plik.txt"); 
+		Scanner odczyt = new Scanner(plik);
+		odczyt.close();
 		
 	}
 	
