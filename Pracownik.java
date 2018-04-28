@@ -18,8 +18,7 @@ public class Pracownik {
 	}
 
 	public String toString() {
-		return this.imie + this.nazwisko + this.placa;
-		
+		return "imie: "+ this.imie + " nazwisko: "+ this.nazwisko + " placa: "+ this.placa + " plec: "+ this.plec;
 	}
 	
 	public boolean czyPracujeWDziale(int a) {
