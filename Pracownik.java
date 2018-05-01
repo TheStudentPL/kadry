@@ -18,7 +18,11 @@ public class Pracownik {
 	}
 
 	public String toString() {
-		return "imie: "+ this.imie + " nazwisko: "+ this.nazwisko + " placa: "+ this.placa + " plec: "+ this.plec;
+		return "imie: "+ this.imie + " nazwisko: "+ this.nazwisko + " placa: "+ this.placa + " plec: "+ this.plec + " dzial: " + this.dzial;
+	}
+	
+	public double zwrocPlace() {
+		return this.placa;
 	}
 	
 	public boolean czyPracujeWDziale(int a) {
@@ -27,7 +31,5 @@ public class Pracownik {
 		} else {
 			return false;
 		}
-	}
-
-		
+	}	
 }
